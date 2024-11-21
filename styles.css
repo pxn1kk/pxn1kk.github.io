@@ -1,0 +1,121 @@
+body {
+    background: rgb(57,44,247);
+    background: linear-gradient(25deg, rgba(57,44,247,1) 0%, rgba(124,37,190,1) 28%, rgba(195,34,189,1) 57%, rgba(253,45,185,1) 94%);
+}
+
+.main {
+    font-family: "Funnel Display", "Google Sans";
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    font-family: "Funnel Display", "Google Sans";
+    color: white;
+    text-align: center;
+    color: #fff;
+    
+}
+
+a {
+    font-family: "Funnel Display", "Google Sans";
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+.q1 {
+    padding-left: 40px;
+    padding-right: 40px;
+    word-spacing: 0.5px;
+    font-family: "Funnel Display", "Google Sans";
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+    margin: 10px; /* Добавим отступы между картинками */
+}
+
+.live {
+    font-family: 'Noto Color Emoji', 'Funnel Display';
+    color: white;
+    text-align: center;
+    font-style: bold;
+    font-style: italic;
+}
+
+.column:hover {
+    outline: 5px none #c318da; /* Например, обводка становится красной при наведении */
+    transform: scale(1.1); /* Немного увеличивает картинку при наведении (по желанию) */
+}
+
+.column {
+    width: 64px;
+    height: 64px;
+    margin: 10px; /* Отступы между картинками */
+    outline: 3px  #c322bd; /* Белая обводка толщиной 3px */
+    border-radius: 10px; /* Закругленные углы (по желанию) */
+}
+
+/* Используем Flexbox для центровки */
+.row {
+    display: flex;
+    justify-content: center; /* Центрируем иконки горизонтально */
+    gap: 20px; /* Расстояние между иконками */
+    margin-bottom: 30px; /* Отступ снизу для разделения с текстом */
+}
+
+h5 {
+    text-align: center;
+    font-family: "Funnel Display", "Google Sans";
+    color: white;
+}
+
+/* Новый контейнер для текста */
+.xiaohongshu-container {
+    text-align: center; /* Центрируем текст */
+    margin-top: 30px; /* Отступ сверху */
+}
+
+.xiaohongshu {
+    font-family: "Funnel Display", "Google Sans";
+    font-size: 40px;
+    color: white;
+}
+
+.text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center; /* Центрирует по горизонтали */
+    align-items: center;
+}
+
+.copyright {
+    padding-left: 40px;
+    padding-right: 40px;
+    word-spacing: 0.5px;
+    font-family: "Funnel Display", "Google Sans";
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+h6 {
+    font-family: "Funnel Display", "Google Sans";
+    color: #fff;
+    text-align: center;
+    
+}
